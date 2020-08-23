@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses">
+  <DataContextMoniker Name="/DataClassesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="049e77e8-4f6d-4aab-ac4a-632d06950d60" absoluteBounds="2.75, 1.375, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DataClassesDataContext/ContactTable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1378ebec-33e0-4d71-b1f7-3df00215710c" absoluteBounds="2.765, 1.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="eff59187-d95a-42ba-93bf-c0ae9313dc7e" absoluteBounds="7.625, 1.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DataClassesDataContext/BudgetMasterTable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="06c7efea-448a-44d7-a50e-55e09d3efce6" absoluteBounds="7.6400000000000006, 1.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="10cd7344-9215-4c6f-beb6-d66f08ac9202" absoluteBounds="5.375, 1.25, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/DataClassesDataContext/CartTable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c2df3364-91e8-4779-a5d8-5ef848608093" absoluteBounds="5.39, 1.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="42531df4-ee97-4d05-96b2-263dd812e36d" absoluteBounds="7.75, 3.625, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/DataClassesDataContext/AdminTable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b0230079-8f9f-4937-a19f-5a8552b31f26" absoluteBounds="7.7650000000000006, 4.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0c7ffce2-4aef-403e-9924-1729160ee9bd" absoluteBounds="0.5, 1.125, 2, 1.9631982421875003">
+      <DataClassMoniker Name="/DataClassesDataContext/ProfileTable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cfb796c9-73cb-4916-bce2-14db8c3af6f3" absoluteBounds="0.51499999999999968, 1.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a73a78d0-420d-4dd5-a0eb-da3f8bf2036e" absoluteBounds="5.375, 3.625, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/DataClassesDataContext/AddProductTable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fa41161e-0795-4858-96ce-0965a410040e" absoluteBounds="5.39, 4.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1ef51763-3574-4e31-8d6c-e61ead7e5ce8" absoluteBounds="3, 3.625, 2, 1.193992513020834">
+      <DataClassMoniker Name="/DataClassesDataContext/CategoryTable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="28fac021-f8a6-4a25-bc3b-7fe5b1745aa1" absoluteBounds="3.0149999999999997, 4.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ec9a745c-7ed1-4df5-97f0-d8a7e45c63a0" absoluteBounds="0.5, 3.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DataClassesDataContext/BillingTable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c203b6f8-66e3-4538-b98b-d3feff6a658f" absoluteBounds="0.51500000000000012, 3.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,207 @@
+﻿<%@ Master Language="C#" %>
+
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Virtual Brush</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/owl.transitions.css">
+    <link rel="stylesheet" href="css/meanmenu/meanmenu.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="css/jvectormap/jquery-jvectormap-2.0.3.css">
+    <link rel="stylesheet" href="css/notika-custom-icon.css">
+    <link rel="stylesheet" href="css/wave/waves.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/wave/button.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+
+    <div class="header-top-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="logo-area">
+                        <h1>
+                            <a href="AdmnHome.aspx" style="color: #ffffff;font-family:'Comic Sans MS'; font-size:xx-large"><i class="fa fa-paint-brush"></i>&nbsp;<i>Virtual Brush</i></a></h1>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <div class="header-top-menu">
+                        <ul class="nav navbar-nav notika-top-nav" title="Admin Profile">
+
+                            <li class="nav-item dropdown ml-5">
+                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><i class="fa fa-user"></i></span></a>
+                                <div role="menu" class="dropdown-menu message-dd animated zoomIn">
+                                    <div class="hd-mg-tt">
+                                        <h2>Hello! Admin</h2>
+
+                                    </div>
+                                    <a href="#">
+                                        <div class="hd-message-sn"  title="View Profile">
+                                            <div class="hd-mg-ctn">
+                                                <a href="ViewProfile.aspx">
+                                                    <h3>View Profile</h3>
+                                                </a>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    <a href="#">
+                                        <div class="hd-message-sn"  title="Change Password">
+                                            <div class="hd-mg-ctn">
+                                                <a href="ChangePd.aspx">
+                                                    <h3>Change Password</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav notika-top-nav" title="Logout">
+
+                            <li class="nav-item dropdown ml-5">
+                                <a href="Logout.aspx" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><i class="fa fa-power-off"></i></span></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-menu-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="mobile-menu">
+                        <nav id="dropdown">
+                            <ul class="mobile-menu-nav">
+                                <li><a data-toggle="collapse" data-target="#Charts" href="AdmnHome.aspx"><i class="fa fa-tachometer"></i>Dashboard</a>
+
+                                </li>
+                                <li><a data-toggle="collapse" data-target="#demoevent" href="AddCategory.aspx"><i class="fa fa-cogs"></i>Category</a>
+
+                                </li>
+                                <li><a data-toggle="collapse" data-target="#democrou" href="#"><i class="fa fa-tasks"></i>Product</a>
+                                    <ul id="democrou" class="collapse dropdown-header-top">
+                                        <li><a href="AddProduct.aspx">Add</a></li>
+                                        <li><a href="ManagePro.aspx">Manage</a></li>
+
+                                    </ul>
+                                </li>
+                                <li><a data-toggle="collapse" data-target="#demolibra" href="BookingList.aspx"><i class="fa fa-gift"></i>View Booking</a>
+
+                                </li>
+                                <li><a data-toggle="collapse" data-target="#demodepart" href="AViewReview.aspx"><i class="fa fa-comments-o"></i>Reviews</a>
+
+                                </li>
+                                <li><a data-toggle="collapse" data-target="#demo" href="SendNotification.aspx"><i class="fa fa-bullhorn"></i>Send Notification</a>
+
+                                </li>
+                                <li><a data-toggle="collapse" data-target="#Miscellaneousmob" href="ManageBooking.aspx"><i class="fa fa-eye"></i>Manage Booking</a>
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-menu-area mg-tb-40">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <ul class="nav nav-tabs notika-menu-wrap menu-it-icon-pro">
+                        <li class="active"><a href="AdmnHome.aspx"><i class="fa fa-tachometer"></i>Dashboard</a>
+                        </li>
+                        <li><a href="AddCategory.aspx"><i class="fa fa-cogs"></i>Category</a>
+                        </li>
+                        <li><a data-toggle="tab" href="#Interface"><i class="fa fa-tasks"></i>Products</a>
+                        </li>
+                        <li><a  href="BookingList.aspx"><i class="fa fa-gift"></i>View Bookings</a>
+                        </li>
+                        <li><a href="AViewReview.aspx"><i class="fa fa-comments-o"></i>Reviews</a>
+                        </li>
+                        <li><a href="SendNotification.aspx"><i class="fa fa-bullhorn"></i>Send Notification</a>
+                        </li>
+                        <li><a href="ManageBooking.aspx"><i class="fa fa-eye"></i>Manage Booking</a>
+                        </li>
+
+
+
+                    </ul>
+                    <div class="tab-content custom-menu-content">
+                        <div id="Interface" class="tab-pane notika-tab-menu-bg animated flipInX">
+                            <ul class="notika-main-menu-dropdown">
+                                <li><a href="AddProduct.aspx"><i class="fa fa-plus-circle"></i>Add</a>
+                                </li>
+                                <li><a href="ManagePro.aspx"><i class="fa fa-wrench"></i>Manage</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery-price-slider.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/meanmenu/jquery.meanmenu.js"></script>
+    <script src="js/counterup/jquery.counterup.min.js"></script>
+    <script src="js/counterup/waypoints.min.js"></script>
+    <script src="js/counterup/counterup-active.js"></script>
+    <script src="js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/jvectormap/jquery-jvectormap-2.0.2.min.js"></script>
+    <script src="js/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="js/jvectormap/jvectormap-active.js"></script>
+    <script src="js/sparkline/jquery.sparkline.min.js"></script>
+    <script src="js/sparkline/sparkline-active.js"></script>
+    <script src="js/flot/jquery.flot.js"></script>
+    <script src="js/flot/jquery.flot.resize.js"></script>
+    <script src="js/flot/curvedLines.js"></script>
+    <script src="js/flot/flot-active.js"></script>
+    <script src="js/knob/jquery.knob.js"></script>
+    <script src="js/knob/jquery.appear.js"></script>
+    <script src="js/knob/knob-active.js"></script>
+    <script src="js/wave/waves.min.js"></script>
+    <script src="js/wave/wave-active.js"></script>
+    <script src="js/todo/jquery.todo.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/chat/moment.min.js"></script>
+    <script src="js/chat/jquery.chat.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery-price-slider.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/jquery.metisMenu.js"></script>
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery.picEyes.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/tawk-chat.js"></script>
+    <script src="js/custom-scripts.js"></script>
+</body>
+
+</html>
